@@ -59,7 +59,7 @@
 	
 	@if(Auth::user()->role_id == 1)
 	<li>
-	<a href="http://10.6.236.32:3333/#/user/{{Auth::user()->id}}"><i class="fa fa-book nav_icon"></i> Account Opening Form</a>
+	<a href="http://salesapp.hblasset.com:3333/#/user/{{Auth::user()->id}}"><i class="fa fa-book nav_icon"></i> Account Opening Form</a>
 	</li>
 	@endif
 	<li>
